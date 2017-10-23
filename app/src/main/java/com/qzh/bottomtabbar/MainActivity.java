@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 .setTabPadding(8, 6, 6)
               //  .setChangeColor(Color.GREEN, Color.RED)
                 .addTabItem("微信", R.mipmap.ic_weixincheck, R.mipmap.ic_weixinnormal, WeixinFragment.class)
-                .addTabItem("通信录", R.mipmap.ic_contratcheck, R.mipmap.ic_contratnormal, ContractFragment.class)
+                .addTabItem("通信录", R.mipmap.ic_contractcheck, R.mipmap.ic_contractnormal, ContractFragment.class)
                 .addTabItem("发现", R.mipmap.ic_findcheck,R.mipmap.ic_findnormal, FindFragment.class)
                 .addTabItem("我", R.mipmap.ic_mecheck,R.mipmap.ic_menormal, MineFragment.class)
                 .setTabBarBackgroundResource(R.drawable.bg_bar)
