@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qzh="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <com.qzh.bottomtabhost.BottomTabBar
+        android:id="@+id/bt_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        qzh:tab_selected_color="@color/onselect"
+        qzh:tab_unselected_color="@color/unselect"
+
+        />
+
+
+</LinearLayout>
